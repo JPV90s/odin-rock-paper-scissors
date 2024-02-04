@@ -1,0 +1,33 @@
+[33mcommit d201fcb3182b6558ed7bec15e6e7f08a2167997c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mrps-ui[m[33m)[m
+Author: JPV90s <133875714+JPV90s@users.noreply.github.com>
+Date:   Sun Feb 4 11:58:31 2024 -0400
+
+    Update getComputerChoice, playRound and playGame functions.
+    
+    User can choose the options with buttons. It now shows score in the display. First who wins 5 rounds ends the game.
+
+[33mcommit a9e5a139890eb2dcde155c29525f51ce62119fc0[m[33m ([m[1;31morigin/rps-ui[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: JPV90s <133875714+JPV90s@users.noreply.github.com>
+Date:   Sat Feb 3 20:33:51 2024 -0400
+
+    Update playRound function
+    
+    Removed alert messages
+
+[33mcommit 5f5c1d44d1be171e3af8d5e2e93208d3b17fa4a9[m
+Author: JPV90s <133875714+JPV90s@users.noreply.github.com>
+Date:   Wed Jan 31 23:03:53 2024 -0400
+
+    Add playGame function
+
+[33mcommit 66cb0fe7e6cba24d9285d963ca9226f01c664507[m
+Author: JPV90s <133875714+JPV90s@users.noreply.github.com>
+Date:   Wed Jan 31 22:37:23 2024 -0400
+
+    Add getComputerChoice and playRound functions
+
+[33mcommit ee5d8aceb927947863f0dc1db7fc4d328b40d602[m
+Author: JPV90s <133875714+JPV90s@users.noreply.github.com>
+Date:   Wed Jan 31 18:17:20 2024 -0400
+
+    Initial commit
