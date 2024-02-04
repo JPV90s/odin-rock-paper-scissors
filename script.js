@@ -14,25 +14,18 @@ function getComputerChoice() {
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === "rock" && computerSelection === "paper") {
-        alert("You Lose! Paper beats Rock");
         return "You Lose! Paper beats Rock"
     } else if (playerSelection === "rock" && computerSelection === "scissors") {
-        alert("You Win! Rock beats Scissors");
         return "You Win! Rock beats Scissors"
     }  else if (playerSelection === "paper" && computerSelection === "scissors") {
-       alert("You Lose! Scissors beats Paper");
        return "You Lose! Scissors beats Paper"
     } else if (playerSelection === "paper" && computerSelection === "rock") {
-        alert("You Win! Paper beats Rock");
         return "You Win! Paper beats Rock"
     } else if (playerSelection === "scissors" && computerSelection === "rock") {
-        alert("You Lose! Paper beats Scissors");
         return "You Lose! Paper beats Scissors"
     } else if (playerSelection === "scissors" && computerSelection === "paper") {
-        alert("You Win! Scissors beats Paper");
         return "You Win! Scissors beats Paper"
     } else if (playerSelection === computerSelection) {
-        alert("It's a tie!");
         return "It's a tie!"
     }
   }
@@ -42,7 +35,7 @@ function playGame(num) {
         const playerSelection = prompt("Choose between Rock, Paper or Scissors").toLowerCase();
         alert("You choose " + playerSelection)
         const computerSelection = getComputerChoice();
-        playRound(playerSelection, computerSelection);
+        console.log(playRound(playerSelection, computerSelection));
     }
 }
 
